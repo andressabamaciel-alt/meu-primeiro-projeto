@@ -1,0 +1,107 @@
+/* Reset simples para evitar diferenças entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #1a72d6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Seções */
+section {
+ background-color: white;
+ padding: 30px; /* Mais espaço interno */
+ margin: 20px auto; /* Centraliza a seção e adiciona margem
+vertical */
+ border-radius: 8px;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra mais
+visível */
+ max-width: 800px; /* Limita a largura máxima da seção */
+}
+
+/* Botões */
+button {
+  background-color:#1a72d6;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1a72d6;
+}
+
+/* Parágrafos especiais */
+.minha-caixa {
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-left: 4px solid #1a72d6;
+  margin-bottom: 10px;
+}
+
+/* Lista de interesses */
+ul.bloco {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+ul.bloco li {
+  margin-bottom: 5px;
+}
+
+/* Destaque aplicado via JS */
+.destaque {
+ background-color: #e0f7fa;
+  padding: 10px;
+  border-left: 4px solid #1a72d6;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+#saudacao-dinamica {
+  font-size: 1.5em;
+  color: #ffeb3b;
+  font-weight: bold;
+  margin-top: 10px;
+}

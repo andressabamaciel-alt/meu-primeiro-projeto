@@ -1,0 +1,112 @@
+body {
+ background-color: lightblue;
+ font-family: Arial, Helvetica, sans-serif;
+ color:#333;
+ margin: 0;
+ padding: 0;
+ 
+}
+header{
+    background-color: #1a72d6; /* Fundo escuro para o cabeçalho */
+ color: white; /* Texto branco no cabeçalho */
+ padding: 20px 0; /* Espaçamento interno superior e inferior */
+ text-align: center
+}
+header h1 {
+ margin: 0; /* Remove margem padrão do h1 */
+ font-size: 2.5em; /* Tamanho da fonte maior */
+}
+ h1 {
+ color: navy;
+ font-family: 'Arial';
+ font-size: 50px;
+ text-align: center;
+ }
+ h2{
+    margin-bottom: 15px;
+ }
+
+p{color:#333;}
+.destaque{color:rgb(16, 36, 148);font-style:bold;text-align: center;}
+#menu-principal{background-color:rgb(186, 186, 248);color:rgb(0, 0, 0); 
+    text-align: center;
+}
+
+p {
+ line-height: 1.6; 
+ margin-bottom: 1em; /
+}
+
+a {
+ color: #06023a; /* Links em azul */
+ text-decoration: none; /* Remove o sublinhado padrão */
+}
+a:hover { /* Estilo para quando o mouse passar por cima do link */
+ text-decoration: underline; 
+}
+ol{
+    list-style-type: none;
+}
+ul{
+    list-style-type: square;
+}
+img{
+
+ width: 150px;
+ height: 200px;
+ border-radius: 30%; /* Faz a imagem ficar redonda */
+ border: 1px solid #5a9ee7; /* Borda azul */
+ display: block; /* Para poder centralizar */
+ margin: 0px auto; /* Centraliza a imagem e adiciona margem */
+}
+
+section {
+ background-color: white;
+ padding: 30px; /* Mais espaço interno */
+ margin: 20px auto; /* Centraliza a seção e adiciona margem
+vertical */
+ border-radius: 8px;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra mais
+visível */
+ max-width: 800px; /* Limita a largura máxima da seção */
+}
+#mdiferent{color: rgb(255, 255, 255); font-size: 1em; }
+ footer {
+ background-color: #1a72d6;
+ color: white;
+ text-align: center;
+ padding: 10px 0;
+ margin-top: 40px; 
+ font-size: 0.9em;
+ 
+}
+
+  nav ul {
+ display: flex; /* Transforma a lista em um container flex
+*/
+ list-style-type: none; /* Remove os marcadores da lista */
+ padding: 0;
+ margin: 10px 0 0 0; /* Margem apenas superior para separar
+do h1 */
+ justify-content:center; 
+ /* Centraliza os itens
+horizontalmente */
+ flex-wrap: wrap; /* Permite que os itens quebrem linha se
+não houver espaço */
+}
+nav li {
+ margin: 0 15px; /* Espaço horizontal entre os itens do
+menu */
+}
+nav a {
+ color: white;
+ text-decoration: none;
+ padding: 8px 15px;
+ border-radius: 5px;
+ transition: background-color 0.3s ease; /* Transição suave
+para o hover */
+}
+nav a:hover {
+ background-color: #007bff; /* Muda a cor de fundo ao
+passar o mouse */
+}
